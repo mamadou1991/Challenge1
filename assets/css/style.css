@@ -1,29 +1,32 @@
+/*Universal css property*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*applies background-color to body*/
 body {
     background-color: #d9dcd6;
 }
-
+/*Applies (20px to every side (top, right, bottom, left), set the font, the background-colour and color to the heaser*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*decide the position of h1 and the font size*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
+/*applies style to class seo element*/
 
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/*Applies 15px t
+/*style the nav element*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,21 +34,21 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*applies style to the unodered list of the nav element*/
 header nav ul {
     list-style-type: none;
 }
-
+/*applies style to the list items of the unordered list of the nav element*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*applies style to all anchor tags*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*applies style to all paragraphs*/
 p {
     font-size: 16px;
 }
