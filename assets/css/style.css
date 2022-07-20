@@ -59,8 +59,10 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-
+    
+    
 }
+
 /*applies style to class float-left*/
 
 .float-left {
