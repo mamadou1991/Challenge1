@@ -1,4 +1,4 @@
-]Horiseon
+Horiseon
 
 Link to live website:
 
